@@ -129,7 +129,7 @@ static Items ITEMS;
 static std::vector<Itemset> TRANSACTIONS;
 
 // parses the transaction file and generates Items and vector<Itemset>
-void ReadTransactions(const char* itemsfilePath = "./apriori/transactions.txt")
+void ReadTransactions(const char* itemsfilePath = "./data/transactions.txt")
 {
 	std::ifstream itemsFile(itemsfilePath);
 	if (itemsFile.is_open())
