@@ -1,2 +1,2 @@
 # BitsApriori
-Association rule mining on a new way to store transaction data.
+Association rule mining with binary encoded transactions.
